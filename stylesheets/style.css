@@ -17,9 +17,9 @@ header {
 }
 
 header h1 {
-  float: left;
+  float: middle;
   width: 570px;
-  font-size:150%;
+  font-size:200%;
   font-weight: bolder;
 }
 
@@ -35,14 +35,16 @@ main {
 
 main .left {
   float: left;
-  width: 570px;
+  width: 400px;
 }
 
 main .right {
   float: right;
   width: 285px;
 }
-#Q1{color:red;}
+
+#Q1 {color:red;}
+#Q2 {color:purple;}
 
 footer .left {
   float: left;
