@@ -1,5 +1,7 @@
 body {
-  background: #f9e933;
+  height: 100%;
+  /*background-color: yellow; */
+  font-family: helvetica;
 }
 
 header, main, footer {
@@ -12,8 +14,11 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background: white;
+  background: darkgreen;
   overflow: auto;
+  padding: 20px 10px 0px 10px;
+  box-shadow: 0px 0px 20px;
+  margin-bottom: 20px;
 }
 
 header h1 {
@@ -21,11 +26,14 @@ header h1 {
   width: 570px;
   font-size:200%;
   font-weight: bolder;
+  color: white;
+  margin-bottom: 9px;
 }
 
 header nav {
   float: right;
   width: 285px;
+  margin-top: -30px;
 }
 
 main {
@@ -36,6 +44,8 @@ main {
 main .left {
   float: left;
   width: 400px;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 main .right {
@@ -45,6 +55,76 @@ main .right {
 
 #Q1 {color:red;}
 #Q2 {color:purple;}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:yellow;
+}
+.sitemap a{
+  color: white;
+}
+
+.sitemap a:hover{
+  color:orange;
+}
+
+.container{
+  padding: 20px;
+}
+
+.pic{
+  height: 300px;
+}
+
+nav a{
+  background-color: rgb(0, 84, 0);
+  color: white;
+  text-decoration: none;
+  padding: 100% 20px 100% 20px;
+}
+nav a:hover{
+  color: darkgreen;
+  background-color: orange;
+}
+
+li{
+  margin: 8px;
+  list-style-type: circle;
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h5{
+  text-decoration: underline;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+footer{
+  background: darkgreen;
+  height: 220px;
+  color:white;
+}
 
 footer .left {
   float: left;
