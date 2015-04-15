@@ -1,7 +1,7 @@
-function isArmstrong(n){
+	//2A
+	function isArmstrong(n){
 	"use strict"; var sum = 0;
 	n = String(n);
-	//traverse n
 	for(var i = 0; i<n.length; ++i){
 		sum = sum+Math.pow(Number(n[i]), n.length);
 	};
@@ -11,7 +11,7 @@ function isArmstrong(n){
 		
 	return false
 };
-
+	//2B
 function allArmstrongs(){
 	var result = "";
 	//generate
@@ -24,7 +24,8 @@ function allArmstrongs(){
 	}
 	return result
 };
-
+	
+	//2C
 function allSubstrings1(str){
 	result=''; word='';
 	for(var k=0; k<str.length; ++k){
@@ -37,6 +38,7 @@ function allSubstrings1(str){
 	return result;
 };
 
+	//2D
 function allSubstrings2(str){
 	result=[]; word='';
 	for(var k=0; k<str.length; ++k){
@@ -49,6 +51,7 @@ function allSubstrings2(str){
 	return result;
 };
 
+		//2E
 function maxWord(str){
 	str = str.split(" ");
 	result = '';
