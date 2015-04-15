@@ -28,15 +28,17 @@ function allArmstrongs(){
 	//2C
 function allSubstrings1(str){
 	result=''; word='';
-	for(var k=0; k<str.length; ++k){
-	for (var i=k;  i<str.length; ++i) {
+	for(var k=0; k<str.length -1; ++k){
+	for (var i=k;  i<str.length; ++i){
 		word += str[i];
 		result += word + ',';
 	}
 	word = '';
 }
-	return result;
+	return result+str[str.length-1];
+
 };
+
 
 	//2D
 function allSubstrings2(str){
